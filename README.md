@@ -1,7 +1,3 @@
-* Simply run bellow command to run Zookeeper and Kafka as docker container
-
-        apache-kafka/kafka-instalation/docker-compose up
-        
 ### Apache Kafka Fundamentals: 
 #### Topic:
 * It's a streams of related messages/data in `Kafka` or you can say it's similar to table in DB (without constraints)
@@ -19,3 +15,8 @@ it will write messages to different partitions of a topic.
 * But if we want to maintain messages order then we need to push message to kafka along with topic name and key (partition) so it will store message in same partion of a topic.
 * Each `Message` with in a partition gets an incremental ID called offset 
 * [Video desc](https://www.youtube.com/watch?v=y9BStKvVzSs)
+> How to run:
+* Simply run below command to run Zookeeper and Kafka as docker container
+
+        apache-kafka/kafka-instalation/docker-compose up
+        
