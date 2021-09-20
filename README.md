@@ -1,12 +1,13 @@
 ### Apache Kafka Fundamentals:
-I will try to cover all the fundamentals of Apache Kafka:
+I will try to cover all the fundamentals/main concepts which every developer must aware from Apache Kafka:
 - [x] Topoic
 - [x] Partition
-- [] Event
-- [] Producer
-- [] Consumer
-- [] Streams
-- [] Connect
+- [ ] Event
+- [ ] Producer
+- [ ] Consumer
+- [ ] Streams
+- [ ] Connect
+- [ ] How to run locally
 
 #### Topic:
 * It's a streams of related messages/data in `Kafka` or you can say it's similar to table in DB (without constraints)
