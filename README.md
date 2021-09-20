@@ -7,7 +7,7 @@ I will try to cover all the fundamentals/main concepts which every developer mus
 - [ ] Consumer
 - [ ] Streams
 - [ ] Connect
-- [ ] How to run locally
+- [x] How to run locally
 
 #### Topic:
 * It's a streams of related messages/data in `Kafka` or you can say it's similar to table in DB (without constraints)
