@@ -30,3 +30,7 @@ it will write messages to different partitions of a topic.
 
         apache-kafka/kafka-instalation/docker-compose up
         
+##### How to check topic details:
+```
+kafka-topics.sh --describe --topic something-new --bootstrap-server localhost:29092
+```
